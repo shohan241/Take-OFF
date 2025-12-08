@@ -1,7 +1,7 @@
 #include <stdio.h>
-const int N = 1e6 + 2;
-int runs[6000005];
-double run_rate[6000005];
+const int N = 1e6 + 5;
+int runs[N];
+double run_rate[N];
 
 int main() {
       int n, k;
@@ -38,4 +38,5 @@ int main() {
             }
             printf("No more players\n");
       }
+
 }
